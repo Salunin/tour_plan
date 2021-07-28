@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header-top {
+  padding: 50px 0;
+}
+.header-top__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.users__link {
+  display: flex;
+  align-items: center;
+}
+.search__button {
+  background-color: #ec1f46;
+  border: none;
+}
+.header-menu {
+  background-color: #0a223d;
+}
+.menu {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
