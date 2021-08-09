@@ -1,6 +1,7 @@
-body {
+* {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
 }
 
 .container {
@@ -371,17 +372,28 @@ template {
 .search {
   margin-right: auto;
   position: relative;
+  overflow: hidden;
+  margin-right: 108px;
+  border-radius: 6px;
+  height: 40px;
 }
 
 .search__input {
+  padding-left: 23px;
+  padding-right: 70px;
+  background-color: #F5FAFE;
   width: 350px;
-  height: 40px;
+  height: 100%;
+  border: none;
 }
 
 .search__button {
   position: absolute;
   right: 0;
   top: 0;
+  padding: 11px 22px;
+  background-color: #EC1F46;
+  border: none;
 }
 
 .users__link {
