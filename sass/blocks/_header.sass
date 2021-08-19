@@ -2,7 +2,7 @@
   display: flex
   justify-content: space-between
   align-items: center
-  border: 1px solid red
+  padding: 40px 0
 .logo
   width: 177px
 .search
@@ -26,6 +26,31 @@
     padding: 11px 22px
     background-color: $main_button
     border: none
-.users__link
-  display: flex
-  align-items: center
+    cursor: pointer
+.users
+  &__link
+    display: flex
+    align-items: center
+    text-decoration: none
+    color: $main-text
+  &__avatar
+    width: 40px
+    height: 40px
+    object-fit: cover
+    border-radius: 50%
+  &__name
+    margin-left: 18px
+.header-menu
+  background-color: $background-dark_blue
+  padding: 0
+.menu
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    list-style: none
+    padding: 31px 0
+    margin: 0
+  &__link
+    color: white
+    text-decoration: none
+    text-transform: uppercase

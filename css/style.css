@@ -362,7 +362,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
+  padding: 40px 0;
 }
 
 .logo {
@@ -394,6 +394,7 @@ template {
   padding: 11px 22px;
   background-color: #EC1F46;
   border: none;
+  cursor: pointer;
 }
 
 .users__link {
@@ -403,5 +404,42 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+.users__avatar {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.users__name {
+  margin-left: 18px;
+}
+
+.header-menu {
+  background-color: #0A223D;
+  padding: 0;
+}
+
+.menu__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 31px 0;
+  margin: 0;
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
