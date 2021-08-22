@@ -505,7 +505,7 @@ template {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .container {
     max-width: 90%;
   }
